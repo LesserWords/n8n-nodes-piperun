@@ -1,3 +1,4 @@
+// eslint-disable-next-line @n8n/community-nodes/no-restricted-imports
 import { N8NPropertiesBuilder, N8NPropertiesBuilderConfig } from '@devlikeapro/n8n-openapi-node';
 import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from 'n8n-workflow';
 
