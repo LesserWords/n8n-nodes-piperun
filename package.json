@@ -34,7 +34,7 @@
 			"dist/credentials/PiperunApi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/Piperun/Piperun.node.js"
+			"dist/nodes/PiperunApi/PiperunApi.node.js"
 		]
 	},
 	"devDependencies": {

@@ -8,17 +8,17 @@ const config: N8NPropertiesBuilderConfig = {};
 const parser = new N8NPropertiesBuilder(doc, config);
 const properties = parser.build();
 
-export class Piperun implements INodeType {
+export class PiperunApi implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Piperun',
-		name: 'piperun',
+		displayName: 'PiperunApi',
+		name: 'piperunApi',
 		icon: { light: 'file:piperun.svg', dark: 'file:piperun.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
 		description: 'Interact with the PipeRun API',
 		defaults: {
-			name: 'Piperun',
+			name: 'PiperunApi',
 		},
 		credentials: [
 			{

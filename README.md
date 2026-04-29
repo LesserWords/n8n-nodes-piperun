@@ -8,7 +8,7 @@ For npm release, this package needs to be published under a different name becau
 
 ## Included Nodes
 
-- `Piperun` (`nodes/Piperun/`)
+- `PiperunApi` (`nodes/PiperunApi/`)
 
 ## Authentication
 
@@ -48,7 +48,7 @@ npm run build
 npm run lint
 ```
 
-### Bump version 
+### Bump version
 
 ```bash
 npm version (patch|minor|major)
